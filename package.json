@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-theme-bootstrap",
+  "private": false,
+  "description": "Gatsby Bootstrap Theme",
+  "keywords": [
+    "gatsby",
+    "theme",
+    "bootstrap"
+  ],
+  "version": "1.0.0",
+  "peerDependencies": {
+    "gatsby": "2.x.x"
+  },
+  "dependencies": {
+    "autoprefixer": "9.8.6",
+    "bootstrap": "4.5.2",
+    "jquery": "3.5.1",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "css-loader": "4.2.2",
+    "node-sass": "4.14.1",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "10.0.1",
+    "webpack": "4.44.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "shipit": "yarn publish --patch"
+  },
+  "repository": "https://github.com/webjay/gatsby-theme-bootstrap",
+  "main": "index.js",
+  "author": "@webjay"
+}
