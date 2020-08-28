@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-bootstrap",
+  "name": "gatsby-theme-bootpack",
   "private": false,
   "description": "Gatsby Bootstrap Theme",
   "keywords": [
@@ -18,7 +18,9 @@
     "popper.js": "1.16.1"
   },
   "devDependencies": {
+    "babel-eslint": "10.1.0",
     "css-loader": "4.2.2",
+    "eslint": "7.7.0",
     "node-sass": "4.14.1",
     "postcss-loader": "3.0.0",
     "sass-loader": "10.0.1",
@@ -28,7 +30,7 @@
   "scripts": {
     "shipit": "yarn publish --patch"
   },
-  "repository": "https://github.com/webjay/gatsby-theme-bootstrap",
+  "repository": "https://github.com/webjay/gatsby-theme-bootpack",
   "main": "index.js",
   "author": "@webjay"
 }

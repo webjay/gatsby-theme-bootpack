@@ -1,5 +1,7 @@
 # Gatsby Bootstrap Theme
 
+    yarn add gatsby-theme-bootpack
+
 In `gatsby-config.js`:
 
-Add `gatsby-theme-bootstrap` to `plugins`.
+Add `gatsby-theme-bootpack` to `plugins`.

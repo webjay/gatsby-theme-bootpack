@@ -1,15 +1,15 @@
-const webpack = require('webpack');
+// const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 
 function onCreateWebpackConfig({ actions, stage, loaders }) {
   const config = {
-    plugins: [
-      new webpack.ProvidePlugin({
-        jQuery: 'jquery',
-        $: 'jquery',
-        jquery: 'jquery',
-      }),
-    ],
+    // plugins: [
+    //   new webpack.ProvidePlugin({
+    //     jQuery: 'jquery',
+    //     $: 'jquery',
+    //     jquery: 'jquery',
+    //   }),
+    // ],
     module: {
       rules: [
         {
